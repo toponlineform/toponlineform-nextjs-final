@@ -1,0 +1,1 @@
+// Deprecated: Migrated to Next.js App Router structure.
