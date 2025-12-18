@@ -1,4 +1,3 @@
-
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -9,7 +8,7 @@ export default function Navbar() {
         JOIN OUR WHATSAPP CHANNEL FOR INSTANT JOB UPDATES!
       </div>
 
-      {/* Navigation */}
+      {/* Main Navigation */}
       <nav className="bg-blue-900 text-white shadow-lg sticky top-0 z-50">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-20">
@@ -27,15 +26,15 @@ export default function Navbar() {
             </div>
 
             <button className="md:hidden text-2xl">
-              <i className="fas fa-bars"></i>
+              <span className="fas fa-bars"></span>
             </button>
           </div>
         </div>
       </nav>
 
-      {/* Quick Links Row */}
-      <div className="bg-blue-800 text-white py-2 overflow-x-auto whitespace-nowrap scrollbar-hide">
-        <div className="container mx-auto px-4 flex space-x-8 text-sm uppercase font-semibold">
+      {/* Blue Quick Links Bar */}
+      <div className="bg-blue-800 text-white py-2 overflow-x-auto whitespace-nowrap scrollbar-hide border-t border-blue-700">
+        <div className="container mx-auto px-4 flex space-x-8 text-xs md:text-sm uppercase font-semibold">
           <Link href="/" className="hover:text-yellow-300">UP Exam</Link>
           <Link href="/" className="hover:text-yellow-300">SSC</Link>
           <Link href="/" className="hover:text-yellow-300">Bank</Link>
